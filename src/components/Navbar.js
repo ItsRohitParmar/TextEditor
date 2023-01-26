@@ -13,7 +13,7 @@ export default function (props) {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
         <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-        <Link className="nav-link" to="/about">About Us</Link>
+        <Link className="nav-link" to="/aboutUs">About Us</Link>
       </div>
     </div>
   </div>
