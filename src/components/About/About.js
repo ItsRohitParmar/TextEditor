@@ -1,16 +1,7 @@
-import React,{ useEffect } from 'react'
-import { useNavigate } from 'react-router-dom';
-import "./About.css"
+import React,{ useEffect } from 'react';
+import "./About.css";
 
 const About = () => {
-  const navigate = useNavigate();
-  useEffect(() => {
-    if(!localStorage.getItem('auth_token'))
-    {
-      navigate('/login');
-    }  
-
-  }, [navigate])
 
   return (
     <div className='aboutus'>
